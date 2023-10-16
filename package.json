@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "name": "mario",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run" : "nodemon ./Js/server",
+    "start": "node ./Js/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
