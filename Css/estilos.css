@@ -75,7 +75,7 @@ h1{
 
 .weed {
     position: absolute;
-    bottom: 400px;
+    bottom: 0px;
     width: 80px;
     animation:weed-animation 1.5s infinite linear;
 
@@ -118,7 +118,7 @@ h1{
 
 @keyframses weed-animation {
     from {
-        right: -200px;
+        right: -150px;
     }
 
     to{
