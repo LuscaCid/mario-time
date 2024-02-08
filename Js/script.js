@@ -26,12 +26,14 @@ const loop = setInterval(() => {
         cardModal.classList.remove('hide')
         close.addEventListener('click',()=>{
             cardModal.classList.add('hide')
+            location.reload()
         })
         
         mario.src = 'Images/game-over.png'
         mario.style.width = '75px'
         mario.style.marginLeft = '50px'
         clearInterval(loop)
+        
     }
     if (weedPostion <= 120 && weedPostion > 0 && marioPosition < 80){
         weedPostion.style.animation = 'none';
@@ -44,12 +46,14 @@ const loop = setInterval(() => {
         cardModal.classList.remove('hide')
         close.addEventListener('click',()=>{
             cardModal.classList.add('hide')
+            location.reload()
         })
         
         mario.src = 'Images/game-over.png'
         mario.style.width = '75px'
         mario.style.marginLeft = '50px'
         clearInterval(loop)
+        location.reload()
     }
 }, 10);
 document.addEventListener('keydown', jump)
