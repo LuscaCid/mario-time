@@ -68,8 +68,8 @@ h1{
 }
 .pipe{
     position: absolute;
-    bottom: 0;
-    width: 80px;
+    bottom:-3px;
+    width: 90px;
     animation: pipe-animation 1.5s infinite linear;
 }
 
