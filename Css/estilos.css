@@ -15,7 +15,7 @@
     width: fit-content;
     background: rgba(255, 255, 255, 0.884);
     padding: 2rem 1rem;
-    
+    font-size: 1.4rem;
     position: relative;
 }
 *{
@@ -91,13 +91,13 @@ h1{
 }
 @keyframes jump{
     0%{
-        bottom: 0;
+        bottom: 30px;
     }
     40%{
-        bottom: 180px;
+        bottom: 190px;
     }
     50%{
-        bottom: 180px;
+        bottom: 195px;
     }
     60%{
         bottom: 180px;
@@ -118,7 +118,7 @@ h1{
 
 @keyframes weed-animation {
     from {
-        right: -450px;
+        right: -300px;
     }
 
     to{
