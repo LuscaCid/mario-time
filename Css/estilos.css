@@ -77,7 +77,7 @@ h1{
     position: absolute;
     bottom: 0px;
     width: 80px;
-    animation:weed-animation 1.5s infinite linear;
+    animation:weed-animation 3s infinite linear;
 
 }
 
