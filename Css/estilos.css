@@ -72,6 +72,15 @@ h1{
     width: 80px;
     animation: pipe-animation 1.5s infinite linear;
 }
+
+.weed {
+    position: absolute;
+    bottom: 400px;
+    width: 80px;
+    animation:weed-animation 1.5s infinite linear;
+
+}
+
 @keyframes clouds-animation{
     from{
         right: -550px;
@@ -100,6 +109,16 @@ h1{
 @keyframes pipe-animation {
     from {
         right: -80px;
+    }
+
+    to{
+        right: 100%;
+    }
+}
+
+@keyframses weed-animation {
+    from {
+        right: -200px;
     }
 
     to{
